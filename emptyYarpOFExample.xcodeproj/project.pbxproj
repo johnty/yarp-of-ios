@@ -55,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* emptyYarpOFExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emptyYarpOFExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* YarpOFiOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YarpOFiOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* ofxiOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxiOS_Prefix.pch; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* emptyYarpOFExample.app */,
+				1D6058910D05DD3D006BFB54 /* YarpOFiOSExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 			);
 			name = emptyYarpOFExample;
 			productName = iPhone;
-			productReference = 1D6058910D05DD3D006BFB54 /* emptyYarpOFExample.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* YarpOFiOSExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -347,7 +347,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					/Users/johnty/Documents/ACE_wrappers_iOS,
-					"/Users/johnty/Documents/yarp-2.3.22_iOS/src/libYARP_OS/include",
+					"/Users/johnty/Documents/yarp-2.3.22_iOS/src/libYARP_OS_iOS/include",
 					"/Users/johnty/Documents/yarp-2.3.22_iOS/generated_include",
 				);
 				INFOPLIST_FILE = "ofxiOS-Info.plist";
@@ -355,7 +355,7 @@
 					"$(inherited)",
 					"/Users/johnty/Documents/of_v0.8.0_ios_release/apps/myApps/yarp-of-ios",
 				);
-				PRODUCT_NAME = emptyYarpOFExample;
+				PRODUCT_NAME = YarpOFiOSExample;
 				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
@@ -369,7 +369,7 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					/Users/johnty/Documents/ACE_wrappers_iOS,
-					"/Users/johnty/Documents/yarp-2.3.22_iOS/src/libYARP_OS/include",
+					"/Users/johnty/Documents/yarp-2.3.22_iOS/src/libYARP_OS_iOS/include",
 					"/Users/johnty/Documents/yarp-2.3.22_iOS/generated_include",
 				);
 				INFOPLIST_FILE = "ofxiOS-Info.plist";
@@ -377,7 +377,7 @@
 					"$(inherited)",
 					"/Users/johnty/Documents/of_v0.8.0_ios_release/apps/myApps/yarp-of-ios",
 				);
-				PRODUCT_NAME = emptyYarpOFExample;
+				PRODUCT_NAME = YarpOFiOSExample;
 				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;

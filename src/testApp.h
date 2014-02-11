@@ -7,7 +7,11 @@
 #include "ace/OS.h"
 
 #include "yarp/os/all.h"
+#include "yarp/os/impl/NameConfig.h"
+#include <yarp/os/Network.h>
+
 using namespace yarp::os;
+using namespace yarp::os::impl;
 
 
 class testApp : public ofxiOSApp{
